@@ -189,9 +189,7 @@ Let's check out that `environment` task:
 ```ruby
 # in Rakefile
 
-task :environment do
-  require_relative './config/environment'
-end
+
 ```
 
 After adding our environment task, running `rake db:migrate` should create our
